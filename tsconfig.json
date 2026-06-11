@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": "."
+  },
+  "include": [
+    "demo/**/*.ts",
+    "demo/**/*.vue",
+    "packages/**/*.ts",
+    "packages/**/*.vue",
+    "shims-vue.d.ts"
+  ]
+}
+

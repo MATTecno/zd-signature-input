@@ -1,0 +1,36 @@
+{
+  "name": "@zeedhi/zd-signature-input",
+  "version": "1.0.0",
+  "description": "Agregador Zeedhi do componente ZdSignatureInput.",
+  "author": "Marcelo Teixeira <marcelo.teixeira@teknisa.com>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MATTecno/zd-signature-input.git",
+    "directory": "packages/zd-signature-input"
+  },
+  "bugs": {
+    "url": "https://github.com/MATTecno/zd-signature-input/issues"
+  },
+  "homepage": "https://github.com/MATTecno/zd-signature-input#readme",
+  "keywords": [
+    "zeedhi",
+    "store",
+    "signature",
+    "assinatura",
+    "component"
+  ],
+  "main": "index.ts",
+  "typings": "index.ts",
+  "files": [
+    "index.ts",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@zeedhi/zd-signature-input-common": "^1.0.0",
+    "@zeedhi/zd-signature-input-vue": "^1.0.0"
+  }
+}

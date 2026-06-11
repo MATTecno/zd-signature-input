@@ -1,0 +1,26 @@
+name: Feature request
+description: Sugira uma melhoria para o ZdSignatureInput.
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema ou oportunidade
+      description: Qual necessidade esta melhoria resolve?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solucao proposta
+      description: Descreva a API, metadata ou comportamento esperado.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+    validations:
+      required: false

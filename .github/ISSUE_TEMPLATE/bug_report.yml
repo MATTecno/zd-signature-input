@@ -1,0 +1,33 @@
+name: Bug report
+description: Reporte um problema no ZdSignatureInput.
+title: "fix: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descricao
+      description: O que aconteceu?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Como reproduzir
+      description: Liste os passos, metadata usada e ambiente.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versao
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true

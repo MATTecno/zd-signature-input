@@ -1,0 +1,25 @@
+{
+  "component": "ZdSignatureInput",
+  "displayName": "ZdSignatureInput",
+  "packages": {
+    "common": "@zeedhi/zd-signature-input-common",
+    "vue": "@zeedhi/zd-signature-input-vue",
+    "aggregate": "@zeedhi/zd-signature-input"
+  },
+  "description": "Campo Zeedhi para captura de assinatura por desenho em canvas ou upload de imagem PNG/JPG/JPEG, normalizando o output para data:image/png;base64.",
+  "output": "Data URL PNG em value, Metadata.getInstance('assinatura').value e ZdForm.value.assinatura.",
+  "dependencies": [
+    "signature_pad@^5.1.3"
+  ],
+  "metadataExample": {
+    "name": "assinatura",
+    "component": "ZdSignatureInput",
+    "label": "Assinatura",
+    "height": 220,
+    "showUpload": true,
+    "validations": {
+      "required": {}
+    }
+  }
+}
+

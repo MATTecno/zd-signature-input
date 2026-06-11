@@ -1,0 +1,42 @@
+{
+  "name": "@zeedhi/zd-signature-input-common",
+  "version": "1.0.0",
+  "description": "Model e interfaces Zeedhi para o componente ZdSignatureInput.",
+  "author": "Marcelo Teixeira <marcelo.teixeira@teknisa.com>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MATTecno/zd-signature-input.git",
+    "directory": "packages/common"
+  },
+  "bugs": {
+    "url": "https://github.com/MATTecno/zd-signature-input/issues"
+  },
+  "homepage": "https://github.com/MATTecno/zd-signature-input#readme",
+  "keywords": [
+    "zeedhi",
+    "signature",
+    "assinatura",
+    "metadata",
+    "input"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint src --ext .ts"
+  },
+  "peerDependencies": {
+    "@zeedhi/common": "^1.120.0",
+    "@zeedhi/core": "^1.120.0"
+  }
+}
