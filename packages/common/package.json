@@ -1,6 +1,6 @@
 {
-  "name": "@zeedhi/zd-signature-input-common",
-  "version": "1.0.1",
+  "name": "@marcelodl49/zd-signature-input-common",
+  "version": "1.0.3",
   "description": "Model e interfaces Zeedhi para o componente ZdSignatureInput.",
   "author": "Marcelo Teixeira <marcelo.teixeira@teknisa.com>",
   "license": "UNLICENSED",

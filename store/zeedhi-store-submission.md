@@ -13,9 +13,9 @@ Nome do componente: `ZdSignatureInput`
 
 Pacotes:
 
-- `@zeedhi/zd-signature-input-common`
-- `@zeedhi/zd-signature-input-vue`
-- `@zeedhi/zd-signature-input`
+- `@marcelodl49/zd-signature-input-common`
+- `@marcelodl49/zd-signature-input-vue`
+- `@marcelodl49/zd-signature-input`
 
 Descricao:
 

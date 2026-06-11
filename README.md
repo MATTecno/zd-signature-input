@@ -28,7 +28,7 @@ Esse comando roda lint, build e dry-run de publicacao dos tres pacotes.
 
 ```ts
 import Vue from 'vue';
-import ZdSignatureInput from '@zeedhi/zd-signature-input';
+import ZdSignatureInput from '@marcelodl49/zd-signature-input';
 
 Vue.use(ZdSignatureInput);
 ```

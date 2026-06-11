@@ -1,10 +1,10 @@
-# @zeedhi/zd-signature-input
+# @marcelodl49/zd-signature-input
 
 Pacote agregador do `ZdSignatureInput`.
 
 ```ts
 import Vue from 'vue';
-import ZdSignatureInput from '@zeedhi/zd-signature-input';
+import ZdSignatureInput from '@marcelodl49/zd-signature-input';
 
 Vue.use(ZdSignatureInput);
 ```

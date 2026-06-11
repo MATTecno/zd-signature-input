@@ -1,6 +1,6 @@
 {
   "name": "zd-signature-input-workspace",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "private": true,
   "description": "Workspace para desenvolvimento e publicacao do componente Zeedhi ZdSignatureInput.",
   "author": "Marcelo Teixeira <marcelo.teixeira@teknisa.com>",
@@ -31,8 +31,8 @@
     "check": "npm run lint && npm run build && npm run check:package-files && npm run publish:dry-run",
     "check:package-files": "node scripts/verify-package-files.js",
     "lint": "vue-cli-service lint packages demo",
-    "publish:dry-run": "npm publish --workspace @zeedhi/zd-signature-input-common --dry-run && npm publish --workspace @zeedhi/zd-signature-input-vue --dry-run && npm publish --workspace @zeedhi/zd-signature-input --dry-run",
-    "publish:packages": "npm run build && npm publish --workspace @zeedhi/zd-signature-input-common && npm publish --workspace @zeedhi/zd-signature-input-vue && npm publish --workspace @zeedhi/zd-signature-input",
+    "publish:dry-run": "npm publish --workspace @marcelodl49/zd-signature-input-common --dry-run && npm publish --workspace @marcelodl49/zd-signature-input-vue --dry-run && npm publish --workspace @marcelodl49/zd-signature-input --dry-run",
+    "publish:packages": "npm run build && npm publish --workspace @marcelodl49/zd-signature-input-common && npm publish --workspace @marcelodl49/zd-signature-input-vue && npm publish --workspace @marcelodl49/zd-signature-input",
     "release:dry-run": "npm run check"
   },
   "dependencies": {

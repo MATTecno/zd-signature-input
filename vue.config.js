@@ -11,7 +11,7 @@ module.exports = {
         '@zeedhi/common': '@zeedhi/common',
         '@zeedhi/core': '@zeedhi/core',
         '@zeedhi/vuetify': '@zeedhi/vuetify',
-        '@zeedhi/zd-signature-input-common': '@zeedhi/zd-signature-input-common',
+        '@marcelodl49/zd-signature-input-common': '@marcelodl49/zd-signature-input-common',
         vue: 'vue',
         'vue-class-component': 'vue-class-component',
         'vue-property-decorator': 'vue-property-decorator',

@@ -1,3 +1,3 @@
-export { default } from '@zeedhi/zd-signature-input-vue';
-export * from '@zeedhi/zd-signature-input-common';
-export * from '@zeedhi/zd-signature-input-vue';
+export { default } from '@marcelodl49/zd-signature-input-vue';
+export * from '@marcelodl49/zd-signature-input-common';
+export * from '@marcelodl49/zd-signature-input-vue';

@@ -1,18 +1,7 @@
 {
-  "name": "@zeedhi/zd-signature-input",
-  "version": "1.0.1",
+  "name": "@marcelodl49/zd-signature-input",
+  "version": "1.0.3",
   "description": "Agregador Zeedhi do componente ZdSignatureInput.",
-  "author": "Marcelo Teixeira <marcelo.teixeira@teknisa.com>",
-  "license": "UNLICENSED",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MATTecno/zd-signature-input.git",
-    "directory": "packages/zd-signature-input"
-  },
-  "bugs": {
-    "url": "https://github.com/MATTecno/zd-signature-input/issues"
-  },
-  "homepage": "https://github.com/MATTecno/zd-signature-input#readme",
   "keywords": [
     "zeedhi",
     "store",
@@ -20,20 +9,35 @@
     "assinatura",
     "component"
   ],
+  "homepage": "https://github.com/MATTecno/zd-signature-input#readme",
+  "bugs": {
+    "url": "https://github.com/MATTecno/zd-signature-input/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MATTecno/zd-signature-input.git",
+    "directory": "packages/zd-signature-input"
+  },
+  "license": "UNLICENSED",
+  "author": "Marcelo Teixeira <marcelo.teixeira@teknisa.com>",
+  "type": "commonjs",
   "main": "index.js",
   "types": "index.d.ts",
-  "typings": "index.d.ts",
   "files": [
     "index.d.ts",
     "index.js",
     "index.ts",
     "README.md"
   ],
+  "scripts": {
+    "test": "npm run test"
+  },
+  "dependencies": {
+    "@marcelodl49/zd-signature-input-common": "^1.0.3",
+    "@marcelodl49/zd-signature-input-vue": "^1.0.3"
+  },
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@zeedhi/zd-signature-input-common": "^1.0.1",
-    "@zeedhi/zd-signature-input-vue": "^1.0.1"
-  }
+  "typings": "index.d.ts"
 }

@@ -1,7 +1,7 @@
 'use strict';
 
-const commonPackage = require('@zeedhi/zd-signature-input-common');
-const vuePackage = require('@zeedhi/zd-signature-input-vue');
+const commonPackage = require('@marcelodl49/zd-signature-input-common');
+const vuePackage = require('@marcelodl49/zd-signature-input-vue');
 
 const plugin = vuePackage.default || vuePackage;
 

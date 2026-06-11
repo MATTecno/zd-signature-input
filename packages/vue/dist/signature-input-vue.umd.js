@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("vue-property-decorator"), require("@zeedhi/vuetify"), require("@zeedhi/zd-signature-input-common"), require("@zeedhi/common"));
+		module.exports = factory(require("vue-property-decorator"), require("@zeedhi/vuetify"), require("@marcelodl49/zd-signature-input-common"), require("@zeedhi/common"));
 	else if(typeof define === 'function' && define.amd)
-		define(["vue-property-decorator", "@zeedhi/vuetify", "@zeedhi/zd-signature-input-common", "@zeedhi/common"], factory);
+		define(["vue-property-decorator", "@zeedhi/vuetify", "@marcelodl49/zd-signature-input-common", "@zeedhi/common"], factory);
 	else if(typeof exports === 'object')
-		exports["signature-input-vue"] = factory(require("vue-property-decorator"), require("@zeedhi/vuetify"), require("@zeedhi/zd-signature-input-common"), require("@zeedhi/common"));
+		exports["signature-input-vue"] = factory(require("vue-property-decorator"), require("@zeedhi/vuetify"), require("@marcelodl49/zd-signature-input-common"), require("@zeedhi/common"));
 	else
-		root["signature-input-vue"] = factory(root["vue-property-decorator"], root["@zeedhi/vuetify"], root["@zeedhi/zd-signature-input-common"], root["@zeedhi/common"]);
-})((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__01a6__, __WEBPACK_EXTERNAL_MODULE__2d67__, __WEBPACK_EXTERNAL_MODULE_a277__, __WEBPACK_EXTERNAL_MODULE_f7d3__) {
+		root["signature-input-vue"] = factory(root["vue-property-decorator"], root["@zeedhi/vuetify"], root["@marcelodl49/zd-signature-input-common"], root["@zeedhi/common"]);
+})((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__01a6__, __WEBPACK_EXTERNAL_MODULE__2d67__, __WEBPACK_EXTERNAL_MODULE_bb8e__, __WEBPACK_EXTERNAL_MODULE_f7d3__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -1638,7 +1638,7 @@ module.exports = [
 __webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport */ render; });
 __webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ staticRenderFns; });
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4424ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/vue/src/SignatureInput.vue?vue&type=template&id=a2b446c0
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"f444acc8-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/vue/src/SignatureInput.vue?vue&type=template&id=a2b446c0
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c,
@@ -3432,13 +3432,6 @@ module.exports = function (argument) {
 
 /***/ }),
 
-/***/ "a277":
-/***/ (function(module, exports) {
-
-module.exports = __WEBPACK_EXTERNAL_MODULE_a277__;
-
-/***/ }),
-
 /***/ "a732":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3826,6 +3819,13 @@ module.exports = !fails(function () {
 
 /***/ }),
 
+/***/ "bb8e":
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_bb8e__;
+
+/***/ }),
+
 /***/ "c04e":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4117,7 +4117,7 @@ Object.defineProperty(exports, "__esModule", {
 const signature_pad_1 = __importDefault(__webpack_require__("90e2"));
 const vue_property_decorator_1 = __webpack_require__("01a6");
 const vuetify_1 = __webpack_require__("2d67");
-const zd_signature_input_common_1 = __webpack_require__("a277");
+const zd_signature_input_common_1 = __webpack_require__("bb8e");
 let ZdSignatureInput = ZdSignatureInput_1 = class ZdSignatureInput extends vuetify_1.ZdInput {
   constructor() {
     super(...arguments);
@@ -5070,7 +5070,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.SignatureInput = exports.ZdSignatureInput = void 0;
 const common_1 = __webpack_require__("f7d3");
-const zd_signature_input_common_1 = __webpack_require__("a277");
+const zd_signature_input_common_1 = __webpack_require__("bb8e");
 Object.defineProperty(exports, "SignatureInput", {
   enumerable: true,
   get: function () {
@@ -5085,7 +5085,7 @@ Object.defineProperty(exports, "ZdSignatureInput", {
     return __importDefault(SignatureInput_vue_2).default;
   }
 });
-__exportStar(__webpack_require__("a277"), exports);
+__exportStar(__webpack_require__("bb8e"), exports);
 const plugin = {
   install(Vue) {
     common_1.InputFactory.register('ZdSignatureInput', zd_signature_input_common_1.SignatureInput);

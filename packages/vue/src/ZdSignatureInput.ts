@@ -1,7 +1,7 @@
 import SignaturePad from 'signature_pad';
 import { Component, Prop, Watch } from 'vue-property-decorator';
 import { ZdInput } from '@zeedhi/vuetify';
-import { SignatureInput } from '@zeedhi/zd-signature-input-common';
+import { SignatureInput } from '@marcelodl49/zd-signature-input-common';
 
 @Component
 export default class ZdSignatureInput extends ZdInput {

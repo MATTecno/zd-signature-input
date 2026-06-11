@@ -1,11 +1,11 @@
 import { PluginObject, VueConstructor } from 'vue';
 import { InputFactory } from '@zeedhi/common';
-import { SignatureInput } from '@zeedhi/zd-signature-input-common';
+import { SignatureInput } from '@marcelodl49/zd-signature-input-common';
 import ZdSignatureInput from './SignatureInput.vue';
 
 export { default as ZdSignatureInput } from './SignatureInput.vue';
 export { SignatureInput };
-export * from '@zeedhi/zd-signature-input-common';
+export * from '@marcelodl49/zd-signature-input-common';
 
 const plugin: PluginObject<unknown> = {
   install(Vue: VueConstructor) {

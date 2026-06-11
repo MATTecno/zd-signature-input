@@ -1,5 +1,6 @@
 node_modules/
 /dist/
+packages/vue/dist/demo.html
 .env
 .env.*
 .DS_Store

@@ -1,6 +1,6 @@
-# @zeedhi/zd-signature-input-common
+# @marcelodl49/zd-signature-input-common
 
 Model e interfaces do componente `ZdSignatureInput`.
 
-Use este pacote junto com `@zeedhi/zd-signature-input-vue` ou instale o agregador `@zeedhi/zd-signature-input`.
+Use este pacote junto com `@marcelodl49/zd-signature-input-vue` ou instale o agregador `@marcelodl49/zd-signature-input`.
 

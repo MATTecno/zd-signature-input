@@ -1,5 +1,5 @@
 import { ZdInput } from '@zeedhi/vuetify';
-import { SignatureInput } from '@zeedhi/zd-signature-input-common';
+import { SignatureInput } from '@marcelodl49/zd-signature-input-common';
 export default class ZdSignatureInput extends ZdInput {
     accept: string;
     backgroundColor: string;
