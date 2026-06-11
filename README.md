@@ -73,7 +73,7 @@ Detalhes de payload estao em `docs/events.md`.
 
 ## Release
 
-O projeto usa SemVer. A versao inicial e `1.0.0` e a tag correspondente e `v1.0.0`.
+O projeto usa SemVer. Consulte `CHANGELOG.md` para ver a versao atual e o historico de releases.
 
 Consulte `RELEASE.md` antes de publicar uma nova versao.
 

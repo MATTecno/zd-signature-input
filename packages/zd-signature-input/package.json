@@ -1,6 +1,6 @@
 {
   "name": "@zeedhi/zd-signature-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Agregador Zeedhi do componente ZdSignatureInput.",
   "author": "Marcelo Teixeira <marcelo.teixeira@teknisa.com>",
   "license": "UNLICENSED",
@@ -20,9 +20,12 @@
     "assinatura",
     "component"
   ],
-  "main": "index.ts",
-  "typings": "index.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
   "files": [
+    "index.d.ts",
+    "index.js",
     "index.ts",
     "README.md"
   ],
@@ -30,7 +33,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@zeedhi/zd-signature-input-common": "^1.0.0",
-    "@zeedhi/zd-signature-input-vue": "^1.0.0"
+    "@zeedhi/zd-signature-input-common": "^1.0.1",
+    "@zeedhi/zd-signature-input-vue": "^1.0.1"
   }
 }

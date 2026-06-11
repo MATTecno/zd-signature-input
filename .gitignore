@@ -1,7 +1,5 @@
 node_modules/
-dist/
-packages/**/dist/
-packages/**/types/
+/dist/
 .env
 .env.*
 .DS_Store

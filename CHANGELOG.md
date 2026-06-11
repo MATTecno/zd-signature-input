@@ -4,6 +4,14 @@ Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
 O formato segue a ideia de Keep a Changelog e o versionamento segue SemVer.
 
+## [1.0.1] - 2026-06-11
+
+### Corrigido
+
+- Versionamento de `dist` e `types` para manter os entrypoints npm disponiveis no repositorio e no pacote publicado.
+- Entry point JavaScript e declaracao TypeScript do pacote agregador `@zeedhi/zd-signature-input`.
+- Checagem automatica para garantir que `main`, `module`, `typings` e `files` apontem para arquivos existentes.
+
 ## [1.0.0] - 2026-06-11
 
 ### Adicionado

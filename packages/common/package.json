@@ -1,6 +1,6 @@
 {
   "name": "@zeedhi/zd-signature-input-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Model e interfaces Zeedhi para o componente ZdSignatureInput.",
   "author": "Marcelo Teixeira <marcelo.teixeira@teknisa.com>",
   "license": "UNLICENSED",
@@ -22,6 +22,7 @@
   ],
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
