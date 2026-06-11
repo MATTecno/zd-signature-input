@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const rootDir = path.resolve(__dirname, '..');
+const vueDistDir = path.join(rootDir, 'packages/vue/dist');
 const typesDir = path.join(rootDir, 'packages/vue/types');
 
 fs.mkdirSync(typesDir, { recursive: true });
@@ -35,4 +36,15 @@ export default component;
   'utf8',
 );
 
-console.log('Vue declaration files normalized.');
+[
+  'signature-input-vue.common.js',
+  'signature-input-vue.umd.js',
+].forEach((fileName) => {
+  const filePath = path.join(vueDistDir, fileName);
+  if (!fs.existsSync(filePath)) return;
+
+  const content = fs.readFileSync(filePath, 'utf8');
+  fs.writeFileSync(filePath, content.replace(/[ \t]+$/gm, ''), 'utf8');
+});
+
+console.log('Vue package artifacts normalized.');
