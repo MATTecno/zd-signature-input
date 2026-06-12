@@ -39,7 +39,7 @@
   "dependencies": {
     "@mdi/font": "^5.8.55",
     "@zeedhi/common": "1.120.*",
-    "@zeedhi/core": "1.120.*",
+    "@zeedhi/core": "1.130.*",
     "@zeedhi/vue": "1.120.*",
     "@zeedhi/vuetify": "1.120.*",
     "signature_pad": "^5.1.3",
