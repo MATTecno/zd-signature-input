@@ -1,6 +1,6 @@
 {
   "name": "zd-signature-input-workspace",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "description": "Workspace para desenvolvimento e publicacao do componente Zeedhi ZdSignatureInput.",
   "author": "Marcelo Teixeira <marcelo.teixeira@teknisa.com>",
