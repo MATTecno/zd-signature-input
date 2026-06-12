@@ -1,6 +1,6 @@
 {
   "name": "@marcelodl49/zd-signature-input",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Agregador Zeedhi do componente ZdSignatureInput.",
   "keywords": [
     "zeedhi",
@@ -33,8 +33,8 @@
     "test": "npm run test"
   },
   "dependencies": {
-    "@marcelodl49/zd-signature-input-common": "^1.0.3",
-    "@marcelodl49/zd-signature-input-vue": "^1.0.3"
+    "@marcelodl49/zd-signature-input-common": "^1.0.4",
+    "@marcelodl49/zd-signature-input-vue": "^1.0.4"
   },
   "publishConfig": {
     "access": "public"

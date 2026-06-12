@@ -27,7 +27,7 @@ https://www.npmjs.com/package/@marcelodl49/zd-signature-input
 
 Versao atual:
 
-`1.0.3`
+`1.0.4`
 
 Descricao:
 
