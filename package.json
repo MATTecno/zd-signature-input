@@ -28,9 +28,10 @@
     "build": "npm run build:common && npm run build:vue",
     "build:common": "tsc -p packages/common/tsconfig.build.json",
     "build:vue": "ZD_SIGNATURE_LIB_BUILD=true vue-cli-service build --target lib --name signature-input-vue --dest packages/vue/dist packages/vue/src/index.ts && tsc -p packages/vue/tsconfig.build.json --emitDeclarationOnly --outDir packages/vue/types && node scripts/fix-vue-types.js",
-    "check": "npm run lint && npm run build && npm run check:package-files && npm run publish:dry-run",
+    "check": "npm run lint && npm run build && npm run check:package-files && npm run pack:dry-run",
     "check:package-files": "node scripts/verify-package-files.js",
     "lint": "vue-cli-service lint packages demo",
+    "pack:dry-run": "npm pack --workspace @marcelodl49/zd-signature-input-common --dry-run && npm pack --workspace @marcelodl49/zd-signature-input-vue --dry-run && npm pack --workspace @marcelodl49/zd-signature-input --dry-run",
     "publish:dry-run": "npm publish --workspace @marcelodl49/zd-signature-input-common --dry-run && npm publish --workspace @marcelodl49/zd-signature-input-vue --dry-run && npm publish --workspace @marcelodl49/zd-signature-input --dry-run",
     "publish:packages": "npm run build && npm publish --workspace @marcelodl49/zd-signature-input-common && npm publish --workspace @marcelodl49/zd-signature-input-vue && npm publish --workspace @marcelodl49/zd-signature-input",
     "release:dry-run": "npm run check"

@@ -17,6 +17,18 @@ Pacotes:
 - `@marcelodl49/zd-signature-input-vue`
 - `@marcelodl49/zd-signature-input`
 
+Link do repositorio Git:
+
+https://github.com/MATTecno/zd-signature-input
+
+Link do NPM:
+
+https://www.npmjs.com/package/@marcelodl49/zd-signature-input
+
+Versao atual:
+
+`1.0.3`
+
 Descricao:
 
 Campo Zeedhi para captura de assinatura por desenho em canvas com mouse, touch ou caneta, ou por upload de imagem `.png`, `.jpg` e `.jpeg`. O valor final sempre e normalizado para `data:image/png;base64,...`.
@@ -50,9 +62,6 @@ Dependencia externa:
 
 Checklist antes do envio:
 
-- `npm run lint`
-- `npm run build`
-- `npm run publish:dry-run`
-- publicar os tres pacotes com usuario autorizado no escopo `@zeedhi`
+- `npm run check`
+- conferir os tres pacotes publicados no escopo `@marcelodl49`
 - anexar o link do repositorio/pacote no formulario oficial
-

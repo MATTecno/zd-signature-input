@@ -4,6 +4,14 @@ Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
 O formato segue a ideia de Keep a Changelog e o versionamento segue SemVer.
 
+## [1.0.3] - 2026-06-12
+
+### Alterado
+
+- Publicacao dos pacotes no escopo npm `@marcelodl49`.
+- Atualizacao dos exemplos e metadados para `@marcelodl49/zd-signature-input`.
+- Ajuste do `npm run check` para validar empacotamento sem tentar publicar versoes ja existentes.
+
 ## [1.0.2] - 2026-06-11
 
 ### Corrigido

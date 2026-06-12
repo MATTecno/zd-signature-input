@@ -22,7 +22,17 @@ npm run serve:8081
 npm run check
 ```
 
-Esse comando roda lint, build e dry-run de publicacao dos tres pacotes.
+Esse comando roda lint, build e dry-run de empacotamento dos tres pacotes.
+
+## NPM
+
+Pacote principal publicado:
+
+https://www.npmjs.com/package/@marcelodl49/zd-signature-input
+
+```bash
+npm install @marcelodl49/zd-signature-input
+```
 
 ## Uso no projeto consumidor
 
